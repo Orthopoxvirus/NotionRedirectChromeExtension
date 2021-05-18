@@ -1,0 +1,10 @@
+{
+	"name": "Notion App Links",
+	"description": "Opens Notion Links in App!",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": ["tabs", "activeTab", "scripting"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
